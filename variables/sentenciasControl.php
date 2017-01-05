@@ -4,6 +4,19 @@
 	$c = 10;
 	$cont = 0;
 
+	$vector[] = "Enero";
+	$vector[] = "Febrero";
+	$vector[] = "Marzo";
+	$vector[] = "Abril";
+	$vector[] = "Mayo";
+	$vector[] = "Junio";
+	$vector[] = "Julio";
+	$vector[] = "Agosto";
+	$vector[] = "Septiembre";
+	$vector[] = "Octubre";
+	$vector[] = "Noviembre";
+	$vector[] = "Diciembre";
+
 	echo "Sabiendo que a = $a / b = $b / c = $c";
 	echo "<br>";
 
@@ -37,6 +50,15 @@
 	//	FOR
 	for ($i='a'; $i < 'z' ; $i++) {
 		echo $i; 
+		echo "<br>";
+	}
+
+	echo "<br>";
+	echo "Puedo recorrer los meses del año con un FOREACH.";
+	echo "<br>";
+
+	foreach ($vector as $clave) {
+		echo $clave;
 		echo "<br>";
 	}
 ?>
