@@ -24,4 +24,11 @@
     $c4 = $c1->restar(1.30, 5.90);
     echo 'c4 = c1 - (1.30, 5.90) ---> ';
     $c4->mostrar();
+    
+    /*
+     * LO SIGUIENTE ES UN EJEMPLO DE UNA LLAMADA A UN METODO STATIC EL CUAL ES LLAMADO CON EL NOMBRE DE LA CLASE +
+     * EL SIMBOLO DE PROCEDENCIA Y EL NOMBRE DEL METODO STATICO. 
+     */
+    echo 'Valor Minimo de un método estatico:: ';
+    Complejo::valorMinimo()->mostrar();
 ?>

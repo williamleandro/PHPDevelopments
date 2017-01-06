@@ -37,4 +37,9 @@ class Complejo {
     public function mostrar() {
         echo '('.$this->real.','.$this->img.')'.'<br>';
     }
+    
+    public static function valorMinimo() {
+        $aux = new Complejo(0.00, 0.00);
+        return $aux;
+    }
 }
